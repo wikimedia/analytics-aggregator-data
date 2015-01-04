@@ -40,5 +40,8 @@ The following aggregations are available
 * `weekly_rescaled`: Per wiki CSVs containing `daily` data summed up
   per week and each week rescaled to 7 good days.
 
+* `monthly_rescaled`: Per wiki CSVs containing `daily` data summed up
+  per month and each month rescaled to 30 good days.
+
 For aggregations that filter away bad dates, `BAD_DATES.csv` contains
 the bad dates in a machine readable format.
