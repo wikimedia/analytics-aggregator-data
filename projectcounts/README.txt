@@ -43,5 +43,8 @@ The following aggregations are available
 * `monthly_rescaled`: Per wiki CSVs containing `daily` data summed up
   per month and each month rescaled to 30 good days.
 
+* `yearly_rescaled`: Per wiki CSVs containing `daily` data summed up
+  per year and each year rescaled to 365 good days.
+
 For aggregations that filter away bad dates, `BAD_DATES.csv` contains
 the bad dates in a machine readable format.
